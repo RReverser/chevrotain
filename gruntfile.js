@@ -319,7 +319,7 @@ module.exports = function(grunt) {
         "typedoc:build_docs"
     ]
 
-    var quickBuildTasks = ["clean:release", "run:ts_compile", "webpack:release"]
+    var quickBuildTasks = ["clean:release", "run:ts_compile", "run:bundle"]
 
     var unitTestsTasks = ["mocha_istanbul"]
 
